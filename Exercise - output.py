@@ -1,3 +1,8 @@
+# print (will print what is put in side the parentheses and quotes)
+# = (will set whatever is on the left to whats on the right)
+# input (will take input from the user )
+# type (will print the data type of whats in the parentheses)
+
 print('Hello World!') 
 # (output) Hello World!
 
