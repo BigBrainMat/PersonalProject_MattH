@@ -1,0 +1,5 @@
+from array import array # Inports arrays
+scores = array('d') #makes an array
+scores.append(97) # set the score
+scores.append(98) # set the score
+print(scores) #prints the scores

@@ -1,0 +1,13 @@
+import datetime
+# print timestamps after sections of code and sees how long it takers to run its program
+
+first_name = 'Matthew'
+print('task completed')
+print(datetime.datetime.now())
+print()
+
+for x in range(0,10):
+    print(x)
+print('task completed')
+print(datetime.datetime.now())
+print()
