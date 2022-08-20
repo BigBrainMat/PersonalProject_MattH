@@ -8,31 +8,6 @@ if gpa >= .85 and lowest_grade >= .70:
 else:
 	honour_roll = False
 
-# Somewhere later in your code if you need to check if students is 
-# on honour roll, all I need to do is check the boolean variable
+# this will check to see true or false to determine honour roll
 if honour_roll:
 	print('You made honour roll')
-
-############################################################################################
-
-from array import array # Inports arrays
-scores = array('d') #makes array
-scores.append(97) #Set scores
-scores.append(98)
-print(scores) #prints scores
-
-############################################################################################
-
-import datetime
-# print timestamps after sections of code and sees how long it takers to run its program
-
-first_name = 'Susan'
-print('task completed')
-print(datetime.datetime.now())
-print()
-
-for x in range(0,10):
-    print(x)
-print('task completed')
-print(datetime.datetime.now())
-print()
