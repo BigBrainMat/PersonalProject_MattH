@@ -1,0 +1,7 @@
+What I need it to do: Run as a funcnction snake game
+
+I want to take insporation from google snake
+
+I also need the snake to turn in 4 dirresctions and when the snakes tail is hit the game will end and show you your score
+
+https://imgur.com/kym9HNm (insporation for my game)
