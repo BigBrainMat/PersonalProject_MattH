@@ -7,7 +7,7 @@ import random
 pygame.init()
 
 #sets a cool caption for our game
-pygame.display.set_caption('Snake game made by me') 
+pygame.display.set_caption('Snake game made by Matt') 
 
 #creates a clock
 clock = pygame.time.Clock()
@@ -73,10 +73,10 @@ def gameLoop():
         while game_close == True:
             
             #tells us we lost
-            message("You Lost! Press R-Play Again or Q-Quit", red)
+            --message("NEEDS TO BE FIXED", red)--
 
             #sets colour
-            display.fill(white)
+            display.fill(blue)
             
             #Changes the score
             my_score(sLength - 1)
@@ -135,10 +135,10 @@ def gameLoop():
         x1 += x1_change
         
         #sets colur again
-        display.fill(white)
+        display.fill(green)
         
         #draws the food
-        pygame.draw.rect(display, green, [food2, food1, snake_block, snake_block])
+        pygame.draw.rect(display, red, [food2, food1, snake_block, snake_block])
         
         #values used to make snake longer and shorter
         snake_Head = []
