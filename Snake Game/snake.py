@@ -73,7 +73,7 @@ def gameLoop():
         while game_close == True:
             
             #tells us we lost
-            --message("NEEDS TO BE FIXED", red)--
+            message("NEEDS TO BE FIXED", red)
 
             #sets colour
             display.fill(blue)
